@@ -1,0 +1,240 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700');
+body {
+    background: #fff;
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 1.5;
+}
+main{
+    padding-top:30px;
+}
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header nav {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 140px;
+	text-align: center;
+	line-height: 140px;
+}
+header nav li {
+	display: inline-block;
+
+}
+    header nav li a {
+        display: block;
+        text-decoration: none;
+        color: #888;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.66px;
+        padding: 0 20px;
+        
+    }
+    header nav li a:hover{
+    color:brown;
+    font-weight:bold;
+}
+section {
+	margin: 0 auto;
+}
+h1 {
+	font-size: 90px;
+	color: brown;
+	font-weight: 200;
+	line-height: 60px;
+	margin-bottom: 30px;
+}
+
+#logo {
+	float: left;
+    padding-left:70px;
+}
+#logo img {
+	width: auto;
+	height: 70px;
+	margin: 15px 30px 0 0;
+}
+
+#about {
+    background: #fff;
+    color: brown;
+    text-align: center;
+    padding-top: 150px;
+    margin:auto;
+
+}
+
+    #about img {
+        position: relative;
+        left: 20px;
+        top: 80px;
+        width: 300px;
+        height: 450px;
+    }
+
+#about input[type='email'] {
+	width: 420px;
+	height: 28px;
+	border: solid 1px #162542;
+	font-family: 'Lato', sans-serif;
+	padding: 3px 6px;
+	margin: 0 0 10px 0;
+}
+
+    #about input[type='submit'] {
+        width: 120px;
+        height: 44px;
+        text-align: center;
+        line-height: 44px;
+        background: #fde165;
+        font-size: 18px;
+        color: #000;
+        border: solid 1px #fcab36;
+    }
+#about img {
+    animation: pulse 3s ease infinite alternate, 
+               nudge 5s linear infinite alternate;
+}
+img {
+    position: relative;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+}
+#about img {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+iframe{
+    position:relative;
+    right:400px;
+    bottom:200px;
+}
+
+#benefits {
+    text-align: center;
+    padding-top:80px;
+    padding-bottom:100px;
+    margin-top:80px;
+
+}
+.icons img{
+    width:50px;
+    height:50px;
+}
+.icons {
+    width: 240px;
+    height: 240px;
+    background-color: white;
+    margin: 120px 100px;
+    display: inline-block;
+    border-radius: 160px;
+    border: 1px solid;
+    padding: 10px;
+    transition: all .2s ease-in-out;
+}
+h2 {
+    font-size: 60px;
+    color: brown;
+    font-weight: 200;
+    line-height: 20px;
+    padding-top:20px;
+}
+#icon1 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: brown;
+}
+#icon2 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: brown;
+}
+#icon3 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: brown;
+}
+
+
+body > header {
+    position: fixed;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9000;
+    background: #ffffff;
+    text-align: center;
+    webkit-box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.63);
+    box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.63);
+}
+.icons:hover {
+    background: #fde165;
+    color: #3a7999;
+    box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.63);
+    
+    
+    transform: scale(1.1);
+}
+a {
+
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+#current {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    color: brown;
+    font-weight: bold;
+}

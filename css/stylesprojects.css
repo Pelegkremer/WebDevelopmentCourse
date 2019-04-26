@@ -1,0 +1,301 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700');
+
+body {
+    background: #fff;
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    color: #4d4d4d;
+    line-height: 1.5;
+}
+main {
+    padding-top: 70px;
+}
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header nav {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 140px;
+    text-align: center;
+    line-height: 140px;
+}
+
+    header nav li {
+        display: inline-block;
+    }
+
+        header nav li a {
+            display: block;
+            text-decoration: none;
+            color: #888;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0.66px;
+            padding: 0 20px;
+        }
+
+            header nav li a:hover {
+                color: brown;
+                font-weight: bold;
+            }
+
+section {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 90px;
+    color: brown;
+    font-weight: 200;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+#logo {
+    float: left;
+    padding-left: 70px;
+}
+
+    #logo img {
+        width: auto;
+        height: 70px;
+        margin: 15px 30px 0 0;
+    }
+
+#about {
+    background: #fff;
+    color: brown;
+    text-align: left;
+    padding-top: 150px;
+    margin-left: 150px;
+}
+
+    #about img {
+        position: relative;
+        left: 700px;
+        bottom: 200px;
+        width: 420px;
+        height: 550px;
+    }
+
+
+
+    #about img {
+        animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+    }
+
+img {
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#about img {
+    -webkit-animation: fadeInLeft 0.7s ease-in alternate;
+    animation: fadeInLeft 0.7s ease-in alternate;
+}
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+@-moz-keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translatex(-100px);
+        -moz-transform: translatex(-100px);
+        -o-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+.in-left {
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+
+
+iframe{
+    position: relative;
+    right: 420px;
+    bottom: 200px;
+}
+audio {
+    position: relative;
+    right: 400px;
+    bottom: 400px;
+}
+
+
+
+#about {
+    -webkit-animation: fadeInDown 0.9s ease-in alternate;
+    animation: fadeInDown 0.9s ease-in alternate;
+}
+
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+        -o-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+        -o-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+        -o-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+
+.in-down {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+body > header {
+    position: fixed;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 9000;
+    overflow: auto;
+    background: #ffffff;
+    text-align: center;
+    webkit-box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.63);
+    box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.63);
+}
+a {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+    a:hover, a:focus {
+        background-size: 100% 2px;
+    }
+#current {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    color: brown;
+    font-weight: bold;
+}
