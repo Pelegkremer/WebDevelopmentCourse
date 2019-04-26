@@ -1,1 +1,2 @@
 # WebDevelopmentCourse
+permalink: /index.html
